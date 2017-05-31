@@ -1,0 +1,25 @@
+platform :ios, '9.3'
+
+target 'app' do
+	pod 'Crashlytics'
+	pod 'FBSDKCoreKit'
+	pod 'FBSDKLoginKit'
+	pod 'Firebase/Core'
+	pod 'Firebase/Auth'
+	pod 'Firebase/Database'
+	pod 'Firebase/Storage'
+	pod 'GoogleSignIn'
+	pod 'OneSignal', '2.5.0'
+	pod 'Realm', '2.1.2'
+	pod 'SinchRTC'
+	pod 'SinchVerification'
+
+	pod 'IQAudioRecorderController'
+	pod 'JSQMessagesViewController'
+	pod 'MBProgressHUD'
+	pod 'MGSwipeTableCell'
+	pod 'NYTPhotoViewer'
+	pod 'ProgressHUD'
+	pod 'Reachability'
+	pod 'RNCryptor', '3.0.1'
+end
